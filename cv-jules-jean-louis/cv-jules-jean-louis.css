@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Titillium+Web:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-image: url(images/BG.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header{
+	background-color: white;
+	color: black;
+	display: flex;
+	height: 72px;
+	border-width: 95%;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	justify-content: center;
+}
+.name{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1rem;
+	flex-basis: auto;
+	display: flex;
+	padding-top: 25px;
+}
+nav{
+	display: flex;
+	justify-content: flex-end;
+	flex-basis: 60%;
+}
+nav ul{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+nav ul li {
+	padding-left: 10px;
+}
+ 
+#nom{
+	font-family: 'Abril Fatface', cursive;
+	margin-right: 1rem;
+}
+#sous-titre{
+	align-items: center;
+	font-size: 1rem;
+	display: flex;
+	padding-bottom: 12px;
+}
+.present{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 91rem;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: flex-end;
+	justify-content: space-between;
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+.sub-present img{
+	position: absolute;
+	width: 40%;
+	margin-top: 11%;
+	padding-left: 27px;
+}
+.sub2-present{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: end;
+	max-width: 600px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding-left: 818px;
+	padding-top: 473px;
+	font-size: 2,5rem;
+	text-transform: uppercase;
+
+}
+.sub2-present p{
+	font-size: 2,5rem;
+	text-transform: uppercase;
+	background: white;
+	border-radius: 25px;
+	border-radius: 15px 40px;
+	border-radius: 25px;
+	border-radius: 15px 50px;
+	font-size: 16px;
+	padding-top: 16px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-right-width: 3px;
+	border-right-style: solid;
+	padding-right: 13px;
+	padding-bottom: 21px;
+	padding-left: 20px;
+}
+#para-present{
+	left: 10px;
+	
+}
+.format {
+	display: flex;
+	top: 1000px;
+	position: relative;
+	max-width: 90%;
+	justify-content: center;
+}
+.sub-format{
+	text-transform: uppercase;
+	background: white;
+	border-radius: 25px;
+	border-radius: 15px 50px;
+	font-size: 16px;
+	padding-top: 16px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-right-width: 3px;
+	border-right-style: solid;
+	padding-right: 13px;
+	padding-bottom: 21px;
+	padding-left: 20px;
+	left: -315px;
+	position: inherit;
+}
+.format img{
+	width: 20%;
+	position: relative;
+	margin-left: 331px;
+}
+.xp {
+	display: flex;
+	top: 1200px;
+	position: relative;
+	max-width: 90%;
+	justify-content: center;
+	
+}
+.xp img{
+	width: 20%;
+	position: relative;
+	left: 333px;
+}
+
+.sub-xp{
+	text-transform: uppercase;
+	background: white;
+	border-radius: 25px;
+	border-radius: 15px 50px;
+	font-size: 16px;
+	padding-top: 16px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-right-width: 3px;
+	border-right-style: solid;
+	padding-right: 13px;
+	padding-bottom: 21px;
+	padding-left: 20px;
+	left: -315px;
+	position: relative;
+}
+.comp {
+	display: flex;
+	top: 1500px;
+	position: relative;
+	max-width: 90%;
+	justify-content: center;
+}
+.sub-comp{
+	text-transform: uppercase;
+	background: white;
+	border-radius: 25px;
+	border-radius: 15px 50px;
+	font-size: 16px;
+	padding-top: 16px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-right-width: 3px;
+	border-right-style: solid;
+	padding-right: 13px;
+	padding-bottom: 21px;
+	padding-left: 20px;
+	left: 182px;
+	position: relative;
+	top: -181px;
+}
+.comp img{
+	width: 15%;
+}
+.info {
+	display: flex;
+	top: 1600px;
+	position: relative;
+	max-width: 90%;
+	justify-content: center;
+}
+.info img{
+	width: 15%;
+}
+.sub-info{
+	text-transform: uppercase;
+	background: white;
+	border-radius: 25px;
+	border-radius: 15px 50px;
+	font-size: 16px;
+	padding-top: 16px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-right-width: 3px;
+	border-right-style: solid;
+	padding-right: 13px;
+	padding-bottom: 21px;
+	padding-left: 20px;
+	left: 182px;
+	position: relative;
+	top: -147px;
+}
